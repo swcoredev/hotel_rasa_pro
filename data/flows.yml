@@ -4,7 +4,7 @@ flows:
   hotel_booking:
     description: "Бронирование номера в отеле для гостей"
     nlu_trigger:
-      - intent: session_start
+      - intent: book_hotel
     steps:
       - action: utter_hotel_greeting
       - collect: guest_name
